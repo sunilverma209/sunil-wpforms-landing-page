@@ -9,6 +9,8 @@
     &__inner {
         display: flex;
         gap: 50px;
+
+        @include responsive-grid;
     }
 
     &__image,

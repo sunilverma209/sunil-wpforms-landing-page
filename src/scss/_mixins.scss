@@ -49,3 +49,26 @@
   }
   
 }
+
+
+@mixin responsive-section-padding {
+  padding: $font-size-base * 25 0px;
+
+  @media (max-width: 768px) {
+    padding: $font-size-base * 20 0px;
+  }
+
+  @media (max-width: 540px) {
+    padding: $font-size-base * 15 0px;
+  }
+
+}
+
+@mixin responsive-grid {
+
+  @media (max-width: 540px) {
+      gap: $spacing-base * 6;
+      display: grid;
+  }
+  
+}

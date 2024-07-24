@@ -1,5 +1,5 @@
 .s-features {
-    padding: $font-size-base * 25 0px;
+    @include responsive-section-padding;
 
     &__container {
       @include container;

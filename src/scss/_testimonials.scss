@@ -1,6 +1,6 @@
 .testimonials {
     background: linear-gradient(180deg, #F8F8F8 0%, $white 100%);
-    padding: $spacing-base * 25 0px;
+    @include responsive-section-padding;
 
     &__container {
         @include container;
@@ -10,6 +10,8 @@
         display: flex;
         gap: 50px;
         flex-wrap: nowrap;
+
+        @include responsive-grid;
     }
 
     &__card-reviews img {
@@ -58,5 +60,7 @@
         width: 100%;
         gap: 50px;
         text-align: center;
+
+        @include responsive-grid;
     }
 }
