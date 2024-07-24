@@ -8,7 +8,6 @@
     &__grids {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        // margin: 60px auto;
         background-color: $border-color;
         grid-gap: 1px;
     }
@@ -33,10 +32,6 @@
         width: 48px;
     }
 
-    &__grid-item-image {
-
-    }
-
     &__grid-item-title {
         width: 100%;
         font-size: $font-size-lg;
@@ -48,4 +43,3 @@
         width: 100%;
     }
 }
-  
