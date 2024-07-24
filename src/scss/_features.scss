@@ -1,0 +1,51 @@
+.features {
+    padding: $font-size-base * 25 0px;
+
+    &__container {
+      @include container;
+    }
+
+    &__grids {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        // margin: 60px auto;
+        background-color: $border-color;
+        grid-gap: 1px;
+    }
+
+    &__grid-item {
+        padding: 20px;
+        background-color: $white;
+        box-sizing: border-box;
+    }
+
+    &__grid-wrap {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        max-width: 250px;
+        margin: 0 auto;
+        gap: 20px;
+    }
+
+    &__features__icon {
+        width: 48px;
+    }
+
+    &__grid-item-image {
+
+    }
+
+    &__grid-item-title {
+        width: 100%;
+        font-size: $font-size-lg;
+        line-height: $font-size-lg + 6;
+        color: $text-color-2;
+    }
+
+    &__grid-item-desc {
+        width: 100%;
+    }
+}
+  

@@ -1,0 +1,48 @@
+.s-features {
+    padding: $font-size-base * 25 0px;
+
+    &__container {
+      @include container;
+    }
+
+    &__inner {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        gap: 100px;
+    }
+
+   &__heading {
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        font-weight: bold;
+        color: $text-color-2;
+    }
+
+    &__footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    &__subheading {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    &__text {
+        font-size: 18px;
+        line-height: 21.6px;
+
+        a {
+            text-decoration: underline;
+        }
+    }
+
+    .features__grid-wrap {
+        max-width: 248px;
+    }
+}

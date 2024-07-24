@@ -1,0 +1,51 @@
+@mixin container {
+  width: calc(100% - 30px);
+  max-width: 960px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  @media (min-width: 576px) {
+    max-width: 540px;
+  }
+
+  @media (min-width: 768px) {
+    max-width: 720px;
+  }
+
+  @media (min-width: 992px) {
+    max-width: 960px;
+  }
+}
+
+
+@mixin btn {
+  min-width: 250px;
+  padding: 19px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 3px;
+
+  &.cta--light {
+    background-color: $white;
+    color: $text-color-1;
+    border: 1px solid $border-color;
+  }
+
+  &.cta--dark {
+    background-color: $primary-color;
+    color: $white;
+    border: 1px solid $primary-color;
+  }
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+
+  @media (max-width: 768px) {
+    min-width: 250px;
+  }
+  
+}

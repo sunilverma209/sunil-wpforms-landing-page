@@ -1,0 +1,39 @@
+.hero {
+    background: $grey;
+    padding: $spacing-base * 25 0px;
+
+    &__container {
+        @include container;
+    }
+
+    &__inner {
+        display: flex;
+        gap: 50px;
+    }
+
+    &__image,
+    &__content {
+        flex: 1;
+    }
+    
+
+    &_content-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    &__heading {
+        color: $text-color-2;
+        font-size: $font-size-x-lg;
+        line-height: 38.4px;
+        font-weight: 700;
+    }
+
+    &__description {
+        font-size: $font-size-medium;
+        line-height: 28px;
+        color: $text-color-1;
+        font-weight: 400;
+    }
+}
