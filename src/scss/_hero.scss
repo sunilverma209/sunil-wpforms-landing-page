@@ -1,6 +1,6 @@
 .hero {
     background: $grey;
-    padding: $spacing-base * 25 0px;
+    @include responsive-section-padding;
 
     &__container {
         @include container;
@@ -10,12 +10,23 @@
         display: flex;
         gap: 50px;
 
+        justify-content: center;
+
         @include responsive-grid;
     }
 
-    &__image,
+    &__image {
+        width: 100%;
+
+        @media (min-width: 768px) {
+            flex: 1;
+        }
+    }
+
     &__content {
-        flex: 1;
+        @media (min-width: 768px) {
+            flex: 1;
+        }
     }
     
     &_content-wrap {

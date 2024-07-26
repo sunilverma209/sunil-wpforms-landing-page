@@ -31,12 +31,24 @@
     background-color: $white;
     color: $text-color-1;
     border: 1px solid $border-color;
+    
+    &:hover,
+    &:focus {
+      text-decoration: none;
+      background-color:#f9f9f9f9;
+    }
   }
 
   &.cta--dark {
     background-color: $primary-color;
     color: $white;
     border: 1px solid $primary-color;
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+      background-color:$pimary-hover-focus;
+    }
   }
 
   &:hover,
@@ -49,7 +61,6 @@
   }
   
 }
-
 
 @mixin responsive-section-padding {
   padding: $font-size-base * 25 0px;
