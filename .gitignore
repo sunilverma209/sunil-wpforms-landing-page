@@ -1,3 +1,11 @@
+# Node modules
 node_modules/
+
+# Build output
 dist/
+
+# Parcel cache
 .parcel-cache/
+
+# macOS .DS_Store files
+.DS_Store

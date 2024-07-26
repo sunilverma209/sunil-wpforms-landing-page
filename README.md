@@ -71,3 +71,18 @@ This project uses the following key libraries:
 
 jQuery: A fast, small, and feature-rich JavaScript library.
 Magnific Popup: A responsive lightbox & dialog script focused on performance.
+
+
+
+**Summary**
+To run your project correctly, you should:
+
+Compile your SCSS files to CSS using Parcel 
+
+```bash
+npm run build
+
+To run a development server and view your site in the browser.
+
+```bash
+npm start
