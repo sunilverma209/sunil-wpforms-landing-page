@@ -22,7 +22,7 @@ To set up the project, follow these steps:
 
 1. **Clone the repository:**
 
-   ```bash
+    ```bash
    git clone <repository_url>
    cd sunil-wpforms-landing-page
 
