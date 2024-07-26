@@ -12,8 +12,7 @@ To get started with this project, follow the instructions below to set up your l
 
 Make sure you have [Node.js](https://nodejs.org/) installed on your machine. You can check if Node.js is installed by running:
 
-```bash
-node -v
+### `node -v`
 
 
 If it’s not installed, download and install it from the official Node.js website.
