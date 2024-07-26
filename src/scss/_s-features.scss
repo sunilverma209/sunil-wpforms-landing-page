@@ -10,7 +10,8 @@
         flex-wrap: wrap;
         text-align: center;
         justify-content: center;
-        gap: 100px;
+
+        @include grid-gap;
     }
 
    &__heading {

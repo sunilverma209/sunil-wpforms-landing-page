@@ -64,11 +64,41 @@
 
 }
 
+@mixin responsive-section-padding-top {
+  padding-top: $font-size-base * 25;
+
+  @media (max-width: 768px) {
+    padding-top: $font-size-base * 20;
+  }
+
+  @media (max-width: 540px) {
+    padding-top: $font-size-base * 15;
+  }
+
+}
+
 @mixin responsive-grid {
+
+  @media (max-width: 768px) {
+      gap: $spacing-base * 8;
+      flex-wrap: wrap;
+  }
 
   @media (max-width: 540px) {
       gap: $spacing-base * 6;
-      display: grid;
   }
   
+}
+
+@mixin grid-gap {
+  gap: $spacing-base * 25;
+
+  @media (max-width: 768px) {
+    gap: $spacing-base * 20;
+  }
+
+  @media (max-width: 540px) {
+    gap: $spacing-base * 15;
+  }
+
 }

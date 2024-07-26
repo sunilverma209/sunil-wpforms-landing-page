@@ -1,6 +1,14 @@
 .header {
   background: linear-gradient(to bottom, $grey 60%, $white 60%);
 
+  @media ( max-width: 768px ) {
+    background: linear-gradient(to bottom, $grey 70%, $white 70%);
+  }
+
+  @media ( max-width: 540px ) {
+    background: linear-gradient(to bottom, $grey 75%, $white 75%);
+  }
+
   &__container {
     @include container;
   }

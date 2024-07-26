@@ -1,7 +1,5 @@
 .screenshot {
-    .screenshot {
-        padding-top: 100px;
-    }
+    @include responsive-section-padding-top;
     
     &__container {
         @include container;
