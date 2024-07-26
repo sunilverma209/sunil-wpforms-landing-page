@@ -19,14 +19,14 @@ If it’s not installed, download and install it from the official Node.js websi
 
 To set up the project, follow these steps:
 
-**Clone the repository:**
+###Clone the repository:
 
     ```bash
    git clone <repository_url>
    cd sunil-wpforms-landing-page
 
 
-**Install the dependencies:**
+###Install the dependencies:
 
 Make sure you have Node.js installed.
 
@@ -56,7 +56,7 @@ Formats the code using Prettier.
 This command will automatically format your code files according to the defined style rules.
 
 
-**Development**
+###Development
 
 To start developing, run:
 
@@ -66,7 +66,8 @@ This will open a local development server where you can see your changes in real
 
 
 
-**Dependencies**
+###Dependencies
+
 This project uses the following key libraries:
 
 jQuery: A fast, small, and feature-rich JavaScript library.
@@ -74,7 +75,8 @@ Magnific Popup: A responsive lightbox & dialog script focused on performance.
 
 
 
-**Summary**
+### Summary
+
 To run your project correctly, you should:
 
 Compile your SCSS files to CSS using Parcel 
